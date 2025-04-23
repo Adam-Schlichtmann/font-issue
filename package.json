@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "APP_VARIANT=\"dev_client\" expo run:android -d; rm -rf ./android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "apk": "eas build --platform=android --profile=apk --local"
   },
   "dependencies": {
     "expo": "~52.0.46",
