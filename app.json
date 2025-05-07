@@ -29,9 +29,20 @@
       [
         "expo-font",
         {
-          "fonts": [
-            "./assets/fonts/Ruwudu-Regular.ttf"
-          ]
+          "fonts": ["./assets/fonts/Ruwudu-Regular.ttf"],
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Ruwudu Regular",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Ruwudu-Regular.ttf",
+                    "weight": 600
+                  }
+                ]
+              }
+            ]
+          }
         }
       ]
     ],
